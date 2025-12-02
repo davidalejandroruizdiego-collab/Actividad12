@@ -1,7 +1,28 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.Actividad12" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    <style name="Theme.BiometricAuth" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/accent_electric_blue</item>
+        <item name="colorPrimaryVariant">@color/secondary_dark_cyan</item>
+        <item name="colorOnPrimary">@color/neutral_charcoal_black</item>
+
+        <item name="colorSecondary">@color/secondary_dark_cyan</item>
+        <item name="colorSecondaryVariant">@color/accent_electric_blue</item>
+        <item name="colorOnSecondary">@color/contrast_off_white</item>
+
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+
+        <item name="android:colorBackground">@color/neutral_charcoal_black</item>
+        <item name="colorSurface">@color/neutral_charcoal_black</item>
+
+        <item name="android:textColorPrimary">@color/contrast_off_white</item>
+
+        <item name="android:fontFamily">@font/roboto_italic_variable</item>
+    </style>
+
+    <style name="TitleText">
+        <item name="android:textColor">@color/contrast_off_white</item>
+    </style>
+
+    <style name="DescriptionText">
+        <item name="android:textColor">@color/background_soft_light_gray</item>
     </style>
 </resources>

@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="primary_deep_navy">#0A1931</color>
+    <color name="neutral_charcoal_black">#1F1F1F</color>
+    <color name="neutral_dark_slate_gray">#4A4A4A</color>
+    <color name="background_soft_light_gray">#EBEBEB</color>
+
+    <color name="accent_electric_blue">#1E90FF</color>
+    <color name="secondary_dark_cyan">#334B68</color>
+    <color name="contrast_off_white">#F9F9F9</color>
+    <color name="accent_muted_olive_green">#7B8C6E</color>
+    <color name="accent_terracotta">#A66B6B</color>
+    <color name="accent_soft_gold">#D4AF37</color>
 </resources>
